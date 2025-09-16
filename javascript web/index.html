@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Task List Manager</h1>
+        <p>Add, complete, or clear tasks with ease!</p>
+    </header>
+    <main>
+        <section class="task-input">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button id="addTaskBtn">Add Task</button>
+        </section>
+        <section class="task-list">
+            <h2>Your Tasks</h2>
+            <ul id="taskList"></ul>
+            <button id="clearCompletedBtn" style="display: none;">Clear Completed Tasks</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
